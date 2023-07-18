@@ -1,0 +1,77 @@
+{
+  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.autoClosingBrackets": "always"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "volar.preview.port": 3000,
+  "volar.completion.preferredTagNameCase": "pascal",
+  "eslint.options": {},
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.packageManager": "yarn",
+  "stylelint.packageManager": "yarn",
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "vue"
+  ],
+  "cSpell.words": [
+    "Composables",
+    "Customizer",
+    "flagpack",
+    "Iconify",
+    "psudo",
+    "stylelint",
+    "touchless",
+    "triggerer",
+    "vuetify"
+  ],
+  "commentAnchors.tags.list": [
+    {
+      "tag": "ℹ️",
+      "scope": "hidden",
+      "highlightColor": "#3498DB",
+      "styleComment": true,
+      "isItalic": false
+    },
+    {
+      "tag": "👉",
+      "scope": "file",
+      "highlightColor": "#98C379",
+      "styleComment": true,
+      "isItalic": false
+    },
+    {
+      "tag": "❗",
+      "scope": "hidden",
+      "highlightColor": "#FF2D00",
+      "styleComment": true,
+      "isItalic": false
+    }
+  ],
+}
